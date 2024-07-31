@@ -39,5 +39,3 @@ pgadmin/
 *.sql
 *.sqlite
 
-# EJS-specific
-*.ejs
