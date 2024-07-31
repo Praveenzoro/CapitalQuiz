@@ -1,0 +1,43 @@
+# Node.js and Express.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+pids/
+*.pid
+*.seed
+
+# Build output
+dist/
+build/
+*.tgz
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# PgAdmin
+pgadmin/
+*.sql
+*.sqlite
+
+# EJS-specific
+*.ejs

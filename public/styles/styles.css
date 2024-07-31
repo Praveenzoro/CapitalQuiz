@@ -1,0 +1,78 @@
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    background-image: url("/images/schiba.jpg");
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100vh;
+    width: 600px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-size: cover; 
+             background-position: center; 
+             background-repeat: no-repeat; 
+             
+}
+
+.restart-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 15px 30px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+.sub{
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1{
+    padding: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.01);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.9px);
+-webkit-backdrop-filter: blur(1.9px);
+border: 1px solid rgba(255, 255, 255, 0.73);
+}
+
+.inp{
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+  
